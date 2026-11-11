@@ -1,6 +1,7 @@
 :root {
     --background-color: lightblue;
     --font-size: x-large;
+    --header-color: darkblue;
 }
 
 
@@ -18,7 +19,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--header-color);
 }
 
 img {
