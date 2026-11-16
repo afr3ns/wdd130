@@ -72,19 +72,10 @@ article img{
     box-shadow: 5px 5px 10px black;
 }
 
-article p {
-    position: absolute;
-    top: 320px;
-    width: 70%;
-    padding: 16px;
-    text-align: left;
-    opacity: 0.8;
-    background-color: var(--accent1-color);
-    color: white;
-    font-size: x-large;
-}
-
 .hero article img {
+    position: absolute;
+    top: 60px;
+    left: 640px;
     float: right;
     width: 125px;
 }
@@ -99,5 +90,13 @@ nav{
 }
 
 .hero article{
-    opacity: 1;
+    position: absolute;
+    top: 250px;
+    width: 70%;
+    padding: 16px;
+    text-align: left;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    color: white;
+    font-size: x-large;
 }
