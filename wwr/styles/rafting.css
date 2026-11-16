@@ -92,3 +92,12 @@ article p {
 nav{
     text-align: center;
 }
+
+.link {
+    text-align: center;
+    padding: 30px;
+}
+
+.hero article{
+    opacity: 1;
+}
