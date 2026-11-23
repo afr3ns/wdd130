@@ -52,10 +52,6 @@ nav, p, section, article{
     padding: 8px;
 }
 
-.socialmedia a{
-text-decoration: none;
-}
-
 .hero {
     position: relative;
     margin-bottom: 20px;
@@ -165,6 +161,24 @@ section{
     object-fit: cover;
 }
 
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.socialmedia a {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.socialmedia img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
 
 footer{
     max-width: 1200px;
