@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name: <input type="text" name="fullname" required></label>
+                <label>Email: <input type="text" name="useremail" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="quantity">What is your favorite browser?</label>
+                <select name="quantity" id="quantity">
+                    <option value="1">Chrome</option>
+                    <option value="2">Firefox</option>
+                    <option value="3">Opera</option>
+                    <option value="4">Safari</option>
+                    <option value="5">Edge</option>
+                </select>
+
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+
+                <label for="places">List the places you have lived: </label>
+                <textarea name="places" id="places" rows="4" placeholder="Hamburg Germany, Sofia Bulgaria, Madrid Spain"></textarea>
+                
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+
+        <footer>
+            ©2026 | HTML Form - User Poll Activity | David Danev
+        </footer>
+    </main>
+</body>
+</html>
